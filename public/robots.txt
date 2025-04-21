@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://fitness-health-hub.vercel.app
+
+# Sitemaps
+Sitemap: https://fitness-health-hub.vercel.app/sitemap.xml
