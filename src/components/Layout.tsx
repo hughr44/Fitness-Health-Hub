@@ -2,7 +2,6 @@ import React, { ReactNode, useState } from 'react';
 import Head from 'next/head';
 import Script from 'next/script';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 type LayoutProps = {
@@ -28,9 +27,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+        {/* Head content moved to _document.tsx */}
       </Head>
       
       {/* Plausible Analytics Script */}

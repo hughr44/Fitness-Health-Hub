@@ -54,9 +54,11 @@ export default function Home({ recentPosts }: HomeProps) {
                     justifyContent: 'center'
                   }}
                 >
-                  <img
+                  <Image
                     src="/images/fhh-logo.png"
                     alt="Fitness & Health Hub Logo"
+                    width={300}
+                    height={300}
                     style={{ 
                       maxWidth: '300px',
                       maxHeight: '300px',
@@ -195,7 +197,7 @@ export default function Home({ recentPosts }: HomeProps) {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Fitness Journey?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Our tools and resources are designed to help you achieve your fitness goals, whether you're just starting out or looking to take your training to the next level.
+              Our tools and resources are designed to help you achieve your fitness goals, whether you&apos;re just starting out or looking to take your training to the next level.
             </p>
             <Link href="/tools/tdee" className="btn bg-yellow-500 text-gray-900 hover:bg-yellow-400 font-medium px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
               Get Started Today

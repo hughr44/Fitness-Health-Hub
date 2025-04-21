@@ -224,7 +224,7 @@ export default function BodyFatEstimator({ recentPosts }: BodyFatProps) {
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
                       required
                     />
-                    <p className="text-sm text-gray-500 mt-1">Measure just below the larynx (Adam's apple).</p>
+                    <p className="text-sm text-gray-500 mt-1">Measure just below the larynx (Adam&apos;s apple).</p>
                   </div>
                   
                   {gender === 'female' && (
