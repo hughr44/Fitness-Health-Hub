@@ -1,0 +1,11 @@
+Placeholder for images:
+
+1. hero-fitness.jpg - Hero image for the homepage
+2. splits.jpg - Cover image for "Best Training Splits for Fat Loss" blog post
+3. bodyfat.jpg - Cover image for "How to Estimate Your Body Fat Percentage" blog post
+4. calories.jpg - Cover image for "Beginner's Guide to Calorie Tracking" blog post
+5. frequency.jpg - Cover image for "How Many Days Per Week Should You Train?" blog post
+6. author.jpg - Author profile image
+7. og-image.jpg - Open Graph image for social media sharing
+
+Note: In a production environment, you would replace these placeholder references with actual image files.
