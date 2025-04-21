@@ -27,7 +27,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        {/* Head content moved to _document.tsx */}
+        <title>Fitness & Health Hub</title>
       </Head>
       
       {/* Plausible Analytics Script */}
